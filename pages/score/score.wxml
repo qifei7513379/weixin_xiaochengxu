@@ -1,0 +1,26 @@
+<view class='score'>
+  <view class='inner-tab'>
+      <navigator url="/pages/environment/environment" hover-class="navigator-hover" open-type="redirect">校园环境</navigator>
+      <navigator url="/pages/arra/arra" hover-class="navigator-hover" open-type="redirect">教学安排</navigator>
+      <navigator url="/pages/send/send" hover-class="navigator-hover" open-type="redirect">全程送考</navigator>
+      <navigator url="/pages/score/score" hover-class="navigator-hover" open-type="redirect" class='on'>历年成绩</navigator>
+  </view>
+  <image src='{{scorebanner}}' mode="widthFix" class='scorebanner'></image>
+    <view class="nav bc_white">
+      <view class="{{selected?'red':'default'}}" bindtap="selected">联考成绩</view>
+      <view class="{{selected1?'red':'default'}}" bindtap="selected1">校考成绩</view>
+    </view>
+    <view class="{{selected?'show':'hidden'}}">
+      <image src='{{score1}}' mode="widthFix"></image>
+      <image src='{{score2}}' mode="widthFix"></image>
+      <image src='{{score3}}' mode="widthFix"></image>
+      <image src='{{score4}}' mode="widthFix"></image>
+    </view>
+    <view class="{{selected1?'show':'hidden'}}">
+      <image src='{{score5}}' mode="widthFix"></image>
+      <image src='{{score6}}' mode="widthFix"></image>
+      <image src='{{score7}}' mode="widthFix"></image>
+      <image src='{{score8}}' mode="widthFix"></image>
+      <image src='{{score9}}' mode="widthFix"></image>
+    </view>
+</view>

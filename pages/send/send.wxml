@@ -1,0 +1,13 @@
+<view class='send'>
+  <view class='inner-tab'>
+      <navigator url="/pages/environment/environment" hover-class="navigator-hover" open-type="redirect">校园环境</navigator>
+      <navigator url="/pages/arra/arra" hover-class="navigator-hover" open-type="redirect">教学安排</navigator>
+      <navigator url="/pages/send/send" hover-class="navigator-hover" open-type="redirect" class='on'>全程送考</navigator>
+      <navigator url="/pages/score/score" hover-class="navigator-hover" open-type="redirect">历年成绩</navigator>
+  </view>
+  <view class='send-img'>
+    <image src='{{send1}}' mode="widthFix"></image>
+    <image src='{{send2}}' mode="widthFix"></image>
+    <image src='{{send3}}' mode="widthFix"></image>
+  </view>
+</view>

@@ -1,0 +1,51 @@
+<!--index.wxml-->
+<view class="index">
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='indexswiper'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" height="430"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='index-bg'>
+    <image src="{{indexbg}}"></image>
+  </view>
+  <view class='index-content01'>
+    <view class='nav'>
+       <navigator url="/pages/environment/environment" hover-class="navigator-hover">
+        <image src='{{nav01}}'></image>
+        校园环境
+       </navigator>
+       <navigator url="/pages/arra/arra" hover-class="navigator-hover">
+        <image src='{{nav02}}'></image>
+        教学安排
+       </navigator>
+       <navigator url="/pages/send/send" hover-class="navigator-hover">
+        <image src='{{nav03}}'></image>
+        全程送考
+       </navigator>
+       <navigator url="/pages/score/score" hover-class="navigator-hover">
+        <image src='{{nav04}}'></image>
+        历年成绩
+       </navigator>
+    </view>
+    <view class="section tc">
+      <video src="{{src}}"   controls ></video>
+    </view>
+  </view>
+  <view class='index-content02'>
+    <image src='{{con02}}'></image>
+    <view class='hobbywrapper'>
+      <view wx:for="{{hobby}}">{{item}}</view>
+    </view>   
+  </view>
+  <view class='index-content03'>
+    <image src='{{cont1}}' mode="widthFix"></image>
+    <image src='{{cont2}}' mode="widthFix"></image>
+    <image src='{{cont3}}' mode="widthFix"></image>
+    <image src='{{cont4}}' mode="widthFix"></image>
+    <image src='{{cont5}}' mode="widthFix"></image>
+    <image src='{{cont6}}' mode="widthFix"></image>
+  </view>
+</view>

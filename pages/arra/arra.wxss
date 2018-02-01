@@ -1,0 +1,3 @@
+/* pages/arra/arra.wxss */
+.arra-img{width: 100%}
+.arra-img image{width: 100%;display: block}

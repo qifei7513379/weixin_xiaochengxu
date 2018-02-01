@@ -1,0 +1,18 @@
+<view class='arra'>
+  <view class='inner-tab'>
+      <navigator url="/pages/environment/environment" hover-class="navigator-hover" open-type="redirect">校园环境</navigator>
+      <navigator url="/pages/arra/arra" hover-class="navigator-hover" open-type="redirect" class='on'>教学安排</navigator>
+      <navigator url="/pages/send/send" hover-class="navigator-hover" open-type="redirect">全程送考</navigator>
+      <navigator url="/pages/score/score" hover-class="navigator-hover" open-type="redirect">历年成绩</navigator>
+  </view>
+  <view class='arra-img'>
+    <image src='{{arra1}}' mode="widthFix"></image>
+    <image src='{{arra2}}' mode="widthFix"></image>
+    <image src='{{arra3}}' mode="widthFix"></image>
+    <image src='{{arra4}}' mode="widthFix"></image>
+    <image src='{{arra5}}' mode="widthFix"></image>
+    <image src='{{arra6}}' mode="widthFix"></image>
+    <image src='{{arra7}}' mode="widthFix"></image>
+    <image src='{{arra8}}' mode="widthFix"></image>
+  </view>
+</view>

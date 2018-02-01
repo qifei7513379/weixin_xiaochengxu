@@ -1,0 +1,15 @@
+.detailimg{width: 100%;height: 425rpx}
+.title{color: #2c2c2c;font-size: 30rpx;padding: 0 30rpx;line-height: 60rpx;}
+.time{color: #7c7c7c;font-size: 24rpx;margin: 15rpx 0 35rpx 0;padding: 0 30rpx;}
+.content{color: #7c7c7c;font-size: 24rpx;padding: 0 30rpx;text-align: justify;line-height: 48rpx}
+.tui{font-size: 20rpx;color: white;background: #ffba00;padding: 0 5rpx;border-radius: 5rpx;margin-left: 10rpx}
+.teach-item{margin-bottom: 60rpx}
+.teach-item .title{font-size: 28rpx;color: #252322;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
+.teach-item .time{font-size: 24rpx;color: #888;margin-top: 25rpx}
+.teach-item .num{font-size: 24rpx;color: #888;margin-top: 35rpx}
+.teach-item image{display: inline-block;width: 275rpx;height: 156rpx;vertical-align: top}
+.teach-content{display: inline-block;width: 340rpx;margin-left: 15rpx}
+.share text{display: inline-block}
+.share button{display: inline-block;vertical-align: top}
+.buttonwrapper{display: inline-block;}
+.share{text-align: center;}

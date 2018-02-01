@@ -1,0 +1,14 @@
+<view class='teach'>
+  <view class='teach-list'>
+    <view wx:for="{{teachlist}}" class='teach-item' wx:key="{{item.viewid}}">
+      <navigator  url='/pages/detail/detail?id={{item.viewid}}'>
+        <image src='{{item.imgsrc}}'></image>
+        <view class='teach-content'>
+          <view class='title'>{{item.title}}</view>
+          <view class='time'>{{item.time}}</view>
+          <view class='num'>{{item.num}}人已读</view>
+        </view>
+      </navigator>  
+    </view>
+  </view>
+</view>

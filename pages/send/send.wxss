@@ -1,0 +1,2 @@
+.send-img{width: 100%}
+.send-img image{width: 100%;display: block}

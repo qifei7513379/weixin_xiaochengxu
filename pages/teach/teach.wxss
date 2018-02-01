@@ -1,0 +1,9 @@
+.teach{background: url(http://jxckjy.gotoip3.com/public/static/yishiimg/jiaoxue-bg.png) no-repeat top;width: 100%;background-size: 100% auto;padding-top: 120rpx;margin-bottom: 90rpx}
+
+.teach-content{display: inline-block;width: 340rpx;margin-left: 15rpx}
+.teach-list{width: 84%;margin: 0 auto;border:1px solid #ffbb2c;padding:40rpx 20rpx 0 20rpx}
+.teach-item{margin-bottom: 60rpx}
+.teach-item .title{font-size: 28rpx;color: #252322;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
+.teach-item .time{font-size: 24rpx;color: #888;margin-top: 25rpx}
+.teach-item .num{font-size: 24rpx;color: #888;margin-top: 35rpx}
+.teach-item image{display: inline-block;width: 275rpx;height: 156rpx;vertical-align: top}

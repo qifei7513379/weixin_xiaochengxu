@@ -1,0 +1,13 @@
+.index{height: 100%;width: 100%;position: relative}
+.index .indexswiper{width: 100%;height: 430rpx;}
+.index .slide-image{width: 100%;height: 430rpx}
+.index .index-bg image{width: 100%;position: absolute;top: 450rpx;display: block;left: 0;z-index: 5;height: 108rpx;top: 324rpx}
+.index .index-content01{background: #ececec;width: 100%;height: 680rpx}
+.index .nav navigator{display: inline-block;width: 25%;color: #232323;font-size: 24rpx;text-align: center}
+.index .nav navigator image{width: 100rpx;height: 100rpx;display: block;margin: 10rpx auto}
+.index .section{width: 90%;margin: 40rpx auto}
+.index .section video{width: 100%;}
+.index .index-content02{width: 100%;position: relative;}
+.index .hobbywrapper{position: absolute;top: 250rpx;font-size:24rpx;color: white;text-align: center;width: 100%;line-height: 36rpx}
+.index .index-content02 image{width: 100%;height: 734rpx}
+.index .index-content03 image{width: 100%;height: auto}

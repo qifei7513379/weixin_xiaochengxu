@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/message/message",
+    "pages/teach/teach",
+    "pages/about/about",
+    "pages/environment/environment",  
+    "pages/send/send",
+    "pages/score/score",
+    "pages/detail/detail",
+    "pages/arra/arra"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "翼视传媒",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath":"utils/icon-1.png",
+        "selectedIconPath":"utils/icon-1-a.png"
+      },
+      {
+        "pagePath": "pages/teach/teach",
+        "text": "教学",
+        "iconPath": "utils/icon-2.png",
+        "selectedIconPath": "utils/icon-2-a.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "留言",
+        "iconPath": "utils/icon-3.png",
+        "selectedIconPath": "utils/icon-3-a.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "utils/icon-4.png",
+        "selectedIconPath": "utils/icon-4-a.png"
+      }
+    ],
+    "color":"#7c7c7c",
+    "selectedColor":"#232323"
+  }
+}

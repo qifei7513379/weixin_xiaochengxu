@@ -1,0 +1,13 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.inner-tab{width: 100%;height: 88rpx;background: #f4790c;}
+.inner-tab navigator{display: inline-block;width: 25%;text-align: center;line-height: 88rpx;color: white;font-size: 30rpx}
+.inner-tab .on:after{content: "—";width: 70rpx;position: relative;font-size: 30rpx;font-weight: bold;top: 24rpx;right: 80rpx}
