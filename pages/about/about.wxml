@@ -1,3 +1,37 @@
-<view>
-  关于
+<view class='about'>
+    <view class="nav bc_white">
+      <view class="{{selected?'red':'default'}}" bindtap="selected"><text>关于我们</text></view>
+      <view class="{{selected1?'red':'default'}}" bindtap="selected1"><text>联系我们</text></view>
+    </view>
+    <view class="{{selected?'show':'hidden'}}">
+      <image src='{{aboutbanner1}}' class='about-banner1'></image>
+      <view class='about-content1'>
+        <view>
+          <view wx:for="{{aboutcon1}}" wx:key="{{item.unic}}" class='aboutcon1'>{{item.con}}</view>
+        </view>        
+        <view wx:for="{{aboutli1}}" wx:key="{{item.unic}}" class='aboutli1'><text>{{item.li}}</text><text>{{item.text}}</text></view>   
+      </view>
+      <image src='{{aboutimg1}}' class='about-img1'></image>
+      <view wx:for="{{abouticon1}}" wx:key="{{item.unic}}" class='abouticon1'>
+        <image src='{{item.url}}'></image>
+        <view class='abouticon1-c'>
+          <view class='title'>{{item.title}}</view>
+          <view class='con'>{{item.con}}</view>
+        </view>
+      </view>
+    </view>
+    <view class="{{selected1?'show':'hidden'}}">
+      <image src='{{aboutbanner2}}' class='about-banner2'></image>
+      <view class='about-content2'>
+        <view class='about-content2-wrapper'>
+          <view class='title'>学校详情</view>
+          <view wx:for="{{aboutcon2}}" wx:key="{{item.unic}}" class='aboutcon2'>{{item.con}}</view>
+          <view class='title'>附近公交/地铁</view>
+          <view class='bus'>{{bus}}</view>
+          <!-- map.wxml -->
+           <map id="map" longitude="115.931730" latitude="28.678190" scale="14" markers="{{markers}}" polyline="{{polyline}}" bindregionchange="regionchange" show-location>
+          </map> 
+        </view>           
+      </view>
+    </view>
 </view>

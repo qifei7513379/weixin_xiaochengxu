@@ -1,0 +1,28 @@
+.nav{width:100%;height:100rpx;flex-direction:row;background: #f4790c;line-height: 100rpx;font-size: 30rpx}
+.default{text-align:center;width: 50%;color:white;display: inline-block;position: relative}
+.red{text-align:center;color:white;width: 50%;display: inline-block;position: relative}
+.show{display:block;text-align:center;}
+.hidden{display:none;text-align:center;line-height:200px;}
+.red text:after {content: "—";width: 50rpx;position: absolute;font-size: 30rpx;font-weight: bold;top: 24rpx;right: 165rpx}
+.about-content1{background: url(http://jxckjy.gotoip3.com/public/static/yishiimg/about-bg1.png) no-repeat;background-size: 100% 100%;margin-bottom: 60rpx;padding-top: 130rpx}
+.about-banner1{width: 100%;height: 400rpx;display: block}
+.about-img1{width: 677rpx;height: 397rpx;display: block;margin: 0 auto 40rpx auto}
+.about-content1{font-size: 24rpx;color: #444;line-height: 48rpx;text-align: left;}
+.aboutli1{width: 100%;text-align: center;}
+.aboutcon1{padding: 0 55rpx;text-indent: 48rpx}
+.aboutcon1:last-child{margin-bottom: 15rpx}
+.aboutli1 text:last-child{color: #f4790c}
+.abouticon1 image{width: 96rpx;height: 96rpx;display: inline-block;vertical-align: top}
+.abouticon1-c{display: inline-block;vertical-align: top;text-align: left;margin-left: 15rpx;width: 520rpx}
+.abouticon1-c .title{font-size: 30rpx;color: #2a2a2a;font-weight: bold;line-height: 30rpx;margin-bottom: 10rpx}
+.abouticon1-c .con{font-size: 20rpx;color: #8d8d8d;line-height: 30rpx;}
+.abouticon1{height: 96rpx;margin-bottom: 40rpx}
+.about{padding-bottom: 50rpx}
+/*tab2  */
+.about-banner2{width: 100%;display: block;height: 350rpx}
+.about-content2{background: url(http://jxckjy.gotoip3.com/public/static/yishiimg/about-bg2.png) no-repeat;background-size: 100% auto;margin-bottom: 60rpx;padding: 56rpx 50rpx 50rpx 50rpx}
+.about-content2-wrapper{border: 1rpx solid #ffbb2c;padding: 100rpx 10rpx 47rpx 10rpx}
+.about-content2-wrapper .title{line-height: 60rpx;font-size: 30rpx;color: #333;font-weight: bold;margin-top: 50rpx}
+.aboutcon2{font-size: 20rpx;color: #4f4f4f;line-height: 40rpx}
+.bus{font-size: 20rpx;color: #4f4f4f;line-height: 40rpx}
+#map{width: 100%;margin-top:30rpx; height: 420rpx;}

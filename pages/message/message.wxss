@@ -1,0 +1,6 @@
+.hui{width: 100%;height: 20rpx;background: #eaeaea}
+.message label{width: 120rpx;display: inline-block;font-size: 30rpx;color: #3b3b3b;text-align: justify; text-justify:distribute-all-lines; text-align-last:justify; vertical-align: top}
+.message input{width: 520rpx;display: inline-block;vertical-align: top;height: 100rpx;margin-left: 40rpx;font-size: 30rpx}
+.messagecon{padding: 0 30rpx;}
+.messagecon view{line-height: 100rpx;border-bottom: 1px solid #efeff4}
+.message textarea{width: 520rpx;display: inline-block;vertical-align: top;margin-left: 40rpx;font-size: 30rpx;line-height: 60rpx;padding-top: 35rpx}

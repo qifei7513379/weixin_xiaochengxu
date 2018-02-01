@@ -1,15 +1,22 @@
+.detail{background: #eaeaea;}
+.detail view{background: white}
 .detailimg{width: 100%;height: 425rpx}
-.title{color: #2c2c2c;font-size: 30rpx;padding: 0 30rpx;line-height: 60rpx;}
-.time{color: #7c7c7c;font-size: 24rpx;margin: 15rpx 0 35rpx 0;padding: 0 30rpx;}
-.content{color: #7c7c7c;font-size: 24rpx;padding: 0 30rpx;text-align: justify;line-height: 48rpx}
+.detailinner .title{color: #2c2c2c;font-size: 30rpx;padding: 0 30rpx;line-height: 60rpx;}
+.detailinner .time{color: #7c7c7c;font-size: 24rpx;margin: 15rpx 0 35rpx 0;padding: 0 30rpx;}
+.detailinner .content{color: #7c7c7c;font-size: 24rpx;padding: 0 30rpx;text-align: justify;line-height: 48rpx}
 .tui{font-size: 20rpx;color: white;background: #ffba00;padding: 0 5rpx;border-radius: 5rpx;margin-left: 10rpx}
-.teach-item{margin-bottom: 60rpx}
-.teach-item .title{font-size: 28rpx;color: #252322;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
-.teach-item .time{font-size: 24rpx;color: #888;margin-top: 25rpx}
-.teach-item .num{font-size: 24rpx;color: #888;margin-top: 35rpx}
-.teach-item image{display: inline-block;width: 275rpx;height: 156rpx;vertical-align: top}
-.teach-content{display: inline-block;width: 340rpx;margin-left: 15rpx}
-.share text{display: inline-block}
-.share button{display: inline-block;vertical-align: top}
+.share text{display: inline-block;font-size: 24rpx;color: #7c7c7c}
+.share button{display: inline-block;vertical-align: top;width: 62rpx;height: 62rpx;border: none;transform-origin: 0;margin-left: 15rpx}
+.share button::after{display: none}
+.share button:nth-child(2){background: url(http://jxckjy.gotoip3.com/public/static/yishiimg/share1.png) no-repeat;background-size: 62rpx 62rpx;}
+.share button:nth-child(3){background: url(http://jxckjy.gotoip3.com/public/static/yishiimg/share2.png) no-repeat;background-size: 62rpx 62rpx;}
 .buttonwrapper{display: inline-block;}
-.share{text-align: center;}
+.share{text-align: center;margin-top: 80rpx;padding-bottom: 80rpx;margin-bottom: 20rpx}
+.detail-list{font-size: 30rpx;color: 2a2a2a;padding: 30rpx}
+.detail-list>.title{line-height: 60rpx;border-bottom: 1px solid #efeff4}
+.detail .teach-item{margin-bottom: 55rpx;margin-top: 35rpx}
+.detail .teach-item .title{font-size: 28rpx;color: #252322;text-overflow: ellipsis;overflow: hidden;white-space: nowrap}
+.detail .teach-item .time{font-size: 24rpx;color: #888;margin-top: 25rpx}
+.detail .teach-item .num{font-size: 24rpx;color: #888;margin-top: 35rpx}
+.detail .teach-item image{display: inline-block;width: 275rpx;height: 156rpx;vertical-align: top}
+.detail .teach-content{display: inline-block;width: 380rpx;margin-left: 15rpx}

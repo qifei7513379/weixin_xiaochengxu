@@ -1,29 +1,28 @@
 <view class='detail'>
-  <view>
-    第{{viewid}}个详情页
-  </view>
-  <view>
+  <view class='detailinner'>
     <image src='{{detailimg}}' class='detailimg'></image>
     <view class='title'>{{title}}</view>
     <view class='time'>{{time}}<text wx:if="{{tui}}" class='tui'>推荐</text> </view>
     <view class='content'>{{content}}</view>
     <view class='share'>
       <view class='buttonwrapper'>
-        <text>分享到</text>  
-        <button>点击</button>
-        <button open-type="share">点击</button>
+        <text>分享</text>  
+        <button></button>
+        <button open-type="share"></button>
       </view>      
     </view>   
-  </view>
-  <view>相关推荐</view>
-  <view wx:for="{{teachlist}}" class='teach-item' wx:key="{{item.viewid}}">
-    <navigator  url='/pages/detail/detail?id={{item.viewid}}'>
-       <image src='{{item.imgsrc}}'></image>
-      <view class='teach-content'>
-        <view class='title'>{{item.title}}</view>
-        <view class='time'>{{item.time}}</view>
-        <view class='num'>{{item.num}}人已读</view>
-      </view>
-    </navigator>  
-  </view>
+  </view>  
+  <view class='detail-list'>
+    <view class='title'>相关推荐</view>
+    <view wx:for="{{teachlist}}" class='teach-item' wx:key="{{item.viewid}}">
+      <navigator  url='/pages/detail/detail?id={{item.viewid}}'>
+        <image src='{{item.imgsrc}}'></image>
+        <view class='teach-content'>
+          <view class='title'>{{item.title}}</view>
+          <view class='time'>{{item.time}}</view>
+          <view class='num'>{{item.num}}人已读</view>
+        </view>
+      </navigator>  
+    </view>
+  </view>  
 </view>
